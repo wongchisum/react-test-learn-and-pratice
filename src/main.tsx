@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { ListPage } from "./pages";
+import { ButtonPage } from "./pages";
 
 const App = () => {
   return (
     <div>
-      <ListPage />
+      <ButtonPage />
     </div>
   );
 };

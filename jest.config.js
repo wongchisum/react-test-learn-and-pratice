@@ -1,12 +1,14 @@
 /** @type {import('ts-jest/dist/types').InitialOptionsTsJest} */
 module.exports = {
-  setupFilesAfterEnv: ["@testing-library/jest-dom"],
+  verbose: true,
   testEnvironment: "jsdom",
+  setupFilesAfterEnv: ["@testing-library/jest-dom"],
   coverageDirectory: "coverage",
-  roots: ["<rootDir>/src"],
+  roots: ["<rootDir>/__tests__"],
   transform: {
     "^.+\\.tsx?$": "ts-jest",
   },
-  testRegex: "(/__tests__/.*|(\\.|/)(test|spec))\\.tsx?$",
+  testRegex: ".*\\.test\\.(j|t)sx?$",
+  // testRegex: "(/__tests__/.*|(\\.|/)(test|spec))\\.tsx?$",
   moduleFileExtensions: ["ts", "tsx", "js", "jsx", "json", "node"],
 };

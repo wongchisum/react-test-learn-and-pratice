@@ -1,0 +1,49 @@
+/* 通用样式 */
+.btn {
+    border: 1px solid #d9d9d9;
+    line-height: 1em;
+    border-radius: 6px;
+    background-color: #fff;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* 布局样式 */
+.inline-block {
+    display: inline-block;
+}
+
+.block {
+    display: block;
+}
+
+/* 配色样式 */
+.primary {
+    background-color: #09d;
+    color: #fff;
+}
+.danger {
+    background-color: #ff0000;
+    color: #fff;
+}
+.info {
+    background-color: green;
+    color: #fff;
+}
+
+/* 尺寸样式 */
+
+.sm {
+    font-size: 12px;
+    padding: 4px 8px;
+}
+
+.md {
+    font-size: 14px;
+    padding: 6px 10px;
+}
+
+.lg {
+    font-size: 16px;
+    padding: 8px 12px;
+}

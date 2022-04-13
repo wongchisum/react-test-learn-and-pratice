@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`测试Button组件props With children props 1`] = `
+<div
+  className="btn md default inline-block"
+  onClick={[Function]}
+>
+  Text
+</div>
+`;
+
+exports[`测试Button组件props With children props 2`] = `
+<div
+  className="btn md default inline-block"
+  onClick={[Function]}
+>
+  <div
+    className="element"
+  >
+    Hello
+  </div>
+</div>
+`;
+
+exports[`测试Button组件props With children props 3`] = `
+<div
+  className="btn md default inline-block"
+  onClick={[Function]}
+>
+  <div>
+    Hello World
+  </div>
+</div>
+`;
+
+exports[`测试Button组件props With layout props 1`] = `
+<div
+  className="btn md default inline-block"
+  onClick={[Function]}
+>
+  inline-block
+</div>
+`;
+
+exports[`测试Button组件props With layout props 2`] = `
+<div
+  className="btn md default block"
+  onClick={[Function]}
+>
+  block
+</div>
+`;
+
+exports[`测试Button组件props With theme props 1`] = `
+<div
+  className="btn md danger inline-block"
+  onClick={[Function]}
+>
+  danger
+</div>
+`;
+
+exports[`测试Button组件props With theme props 2`] = `
+<div
+  className="btn md info inline-block"
+  onClick={[Function]}
+>
+  info
+</div>
+`;
+
+exports[`测试Button组件props With theme props 3`] = `
+<div
+  className="btn md primary inline-block"
+  onClick={[Function]}
+>
+  primary
+</div>
+`;
+
+exports[`测试Button组件props default 1`] = `
+<div
+  className="btn md default inline-block"
+  onClick={[Function]}
+/>
+`;
